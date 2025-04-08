@@ -107,3 +107,10 @@ main {
 .why-choose-us-icons p {
     width: 275.3px;
 }
+.special-dishies {
+    display: flex;
+    justify-content: center;
+}
+.special-dishies img {
+    width: 250px;
+}
