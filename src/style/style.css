@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: lightgrey;
+   /* background-color: lightgrey; */
 }
 .nav-header ul {
     display: flex;
@@ -21,6 +21,13 @@ header {
     align-items: center;
     gap: 24px;
 }
+.btn-background {
+    border-radius: 10px;
+    padding: 16px 32px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-white);
+    background-color: var(--color-primary);    
+}
 .btn-background-less {
     border-radius: 10px;
     padding: 16px 32px;
@@ -28,18 +35,75 @@ header {
     color: var(--color-primary);
     background-color: var(--color-white);
 }
+.main-content-btns {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    margin-top: 32.5px;
+}
 main {
     display: flex;
     justify-items: center;
     align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+.main-content h1 {
+    font-size: 60px;
 }
 .main-content {
     width: 563px;
-    border: 1px solid red;
+    margin-left: 100px;
+    /* border: 1px solid red; */
 }
 .main-image img {
     width: 651px;
 }
+.main-content p {
+    margin-top: 32px;
+    font-size: 18px;
+    color: var(--color-black);
+}
+.active {
+    color: var(--color-primary) !important;
+}
 .primary-font-color {
-    color: var(--color-primary)
+    color: var(--color-primary);
+}
+
+.why-choose-us {
+    /*
+    display: flex;
+    justify-content: center;
+    */
+    text-align: center;
+    background-color: var(--color-bg-overlay);
+    margin-top: 102px;
+}
+.why-choose-us h2 {
+    font-size: 48px;
+    text-align: center;
+}
+.why-choose-us p {
+    font-size: 18px;
+    color: var(--color-gray);
+    margin-top: 7px;
+}
+.why-choose-us-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.why-choose-us-icons article h3 {
+    font-size: 28px;
+}
+.why-choose-us-icons article h4 {
+    font-size: 48px;
+    margin-top: 60px;
+}
+.why-choose-us-icons img {
+    width: 218px;
+}
+.why-choose-us-icons p {
+    width: 275.3px;
 }
