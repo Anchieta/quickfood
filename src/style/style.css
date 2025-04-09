@@ -169,16 +169,18 @@ main {
 }
 .what-clients-say-imgs {
     width: 399px;
+    border: 1px solid red;    
+    padding: 40px;
+    /*
+    display: flex;
+    flex-direction: column;    
+    */
 }
 .what-clients-say-div {
     display: flex;
     justify-content: center;
     margin-top: 60px;
     gap: 21px;
-}
-.what-clients-say-imgs {
-    border: 1px solid red;    
-    padding: 40px;
 }
 .what-clients-say-imgs p {
     width: 16px;
