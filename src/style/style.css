@@ -169,18 +169,19 @@ main {
 }
 .what-clients-say-imgs {
     width: 399px;
-    border: 1px solid red;    
     padding: 40px;
-    /*
-    display: flex;
-    flex-direction: column;    
-    */
 }
 .what-clients-say-div {
     display: flex;
     justify-content: center;
     margin-top: 60px;
     gap: 21px;
+}
+.what-clients-say-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .what-clients-say-imgs p {
     width: 16px;
@@ -195,11 +196,9 @@ main {
 }
 .what-clients-say-imgs h3 {
     width: 170px;
-    border: 1px solid black;
     margin-top: 24px;
 }
 .what-clients-say-imgs p {
     width: 319px;
-    border: 1px solid blue;
     margin-top: 16px;
 }
