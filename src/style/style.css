@@ -260,3 +260,17 @@ main {
     padding: 16px 32px;
     margin: 8px;
 }
+footer {
+    height: 500px;
+    background-color: var(--color-primary);
+}
+.social-icon {
+    width: 20.27px;
+    border: 2px solid var(--color-white);
+    border-radius: 80px;
+    padding: 7.19px 6.14px;
+    text-align: center;
+}
+.social-icon img {
+    width: 11.72px;
+}
