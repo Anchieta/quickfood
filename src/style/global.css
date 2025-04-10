@@ -13,9 +13,11 @@ body{
 :root {
     --color-primary: #00A000;
     --color-black: #000001;
+    --color-black-60-opacit: rgba(14, 14, 34, 0.6);
     --color-white: white;
     --color-bg-overlay: #FAFAFA;
     --color-gray: #999999;
+    --color-light-gray: #C1C1C1;
     
 }
 

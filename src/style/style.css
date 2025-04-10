@@ -27,6 +27,7 @@ header {
     border: 1px solid var(--color-primary);
     color: var(--color-white);
     background-color: var(--color-primary);    
+    cursor: pointer;
 }
 .btn-background-buy {
     border-radius: 10px;
@@ -37,6 +38,7 @@ header {
     width: 352px;
     margin-top: 16px;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 .btn-background-less {
     border-radius: 10px;
@@ -44,6 +46,7 @@ header {
     border: 1px solid var(--color-primary);
     color: var(--color-primary);
     background-color: var(--color-white);
+    cursor: pointer;
 }
 .main-content-btns {
     display: flex;
@@ -82,10 +85,6 @@ main {
 }
 
 .why-choose-us {
-    /*
-    display: flex;
-    justify-content: center;
-    */
     text-align: center;
     background-color: var(--color-bg-overlay);
     margin-top: 102px;
@@ -146,7 +145,6 @@ main {
 .special-dishies-imgs p {
     font-size: 18px;
     width: 279px;
-
     margin-top: 16px;
 }
 .special-dishies-imgs h3 {
@@ -175,12 +173,14 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 100px;
     gap: 21px;
 }
 .what-clients-say-imgs {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--color-white);
 
 }
 .what-clients-say-imgs p {
@@ -190,7 +190,6 @@ main {
     width: 100px;
 }
 .what-clients-say h2 {
-   /*  width: 675px; */
     font-size: 45px;
     text-align: center;
 }
@@ -201,4 +200,63 @@ main {
 .what-clients-say-imgs p {
     width: 319px;
     margin-top: 16px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 82px;
+    background-color: antiquewhite;
+}
+.about-us h2 {
+    font-size: 40px;
+}
+.content {
+    width: 558px;
+}
+.content p {
+    margin-top: 24px;
+}
+.content button {
+    margin-top: 24px;
+}
+.about-us img {
+    width: 600px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--color-bg-overlay);
+    padding: 100px;
+    font-size: 48px;
+}
+.subscribe p {
+    font-size: 18px;
+    margin-top: 8px;
+    color: var(--color-black-60-opacit);
+}
+.subscribe div {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 60px;
+    padding-left: 24px;
+    padding-right: 8px;
+    border: 1px solid var(--color-light-gray); 
+    width: 710px;
+    height: 77px;
+    border-radius: 10px;
+}
+.subscribe div input {
+    font-size: 18px;
+    color: var(--color-black);
+    background-color: var(--color-bg-overlay);
+}
+.subscribe div button {
+    font-size: 24px;
+    padding: 16px 32px;
+    margin: 8px;
 }
