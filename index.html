@@ -13,10 +13,10 @@
         </div>
         <nav class="nav-header">
             <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">About</a></li>
+                <li><a class="active" href="#main">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
+                <li><a href="#about-us">About</a></li>
             </ul>
         </nav>
         <div class="btn-header">
@@ -25,7 +25,7 @@
             <button class="btn-background-less">Login</button>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div class="main-content">
             <h1>We deliver <span class="primary-font-color">Healthy & Delicious</span>Food</h1>
             <p>Order online or book a table.We are always ready to fulfill your demand.You would get fastest delivery you could ever imagine.Keep in touch with us to take your delicious foods.</p>
@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    <section class="special-dishies">
+    <section class="special-dishies" id="product">
         <h2>Special dishes for you</h2>
         <div class="special-dishies-div">
         <!-- dishie 1 -->
@@ -129,7 +129,7 @@
         </div>
     </section>
 
-    <section class="about-us">
+    <section class="about-us" id="about-us">
         <div class="content">
             <h2>About Us</h2>
             <p>The best way to make it works is to have a smart list of all the restaurants and cuisines organized by location, type of food (fast food, or more gourmet dishes), food preferences (vegetarian, meat lovers, any special diets like gluten-free diets), different nation’s cuisine, etc.</p>
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <section class="subscribe">
+    <section class="subscribe" id="contact-us">
         <h2>Subscribe to our Newsletter</h2>
         <p>Join Us and Get Update on our Avaliable Products</p>
         <div>
@@ -150,26 +150,54 @@
     </section>
 
     <footer>
-        <div>
-            <img src="/src/assets/images/quickfood-logo-branco.png" alt="">
+        <div class="footer-logo">
+            <img class="footer-logo-img" src="/src/assets/images/quickfood-logo-branco.png" alt="logo da empresa no ">
             <div class="sociais">
                 <div class="social-icon"><img src="/src/assets/images/twitter-icon.png" alt="Icone do Twitter"  title="Icone do Twitter"></div>
                 <div class="social-icon"><img src="/src/assets/images/instagran-icon.png" alt="Icone do Instagran" title="Icone do Instagran"></div>
-                <div class="social-icon"></div>
-                <div class="social-icon"></div>
+                <div class="social-icon"><img src="/src/assets/images/facebook-icon.png" alt="Icone do Facebook" title="Icone do Facebook"></div>
             </div>
         </div>
-        <div>
-            
+        <!-- 1o. Menu-->
+        <div class="footer-nav">
+            <h2>Company</h2>
+            <nav>
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </nav>           
         </div>
-        <div>
-            
+
+        <!-- 2o. Menu-->
+        <div class="footer-nav">
+            <h2>Help</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>               
         </div>
-        <div>
-            
+
+        <!-- 3o. Menu-->
+        <div class="footer-nav">
+            <h2>Terms</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy Pollicy</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </nav>          
+        <!-- All right reserved -->
         </div>
-        <div class="all-right-reserved">All right reserved 2022</div>
     </footer>
+    <div class="last-line">
+        <div class="all-right-reserved">All right reserved  &copy; 2022</div>
+    </div>
     <br><br><br><br>
 </body>
 </html>
