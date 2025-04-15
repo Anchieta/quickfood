@@ -4,7 +4,11 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-   /* background-color: lightgrey; */
+
+    /* Fixa o header no topo da tela */
+    position: sticky;
+    top: 0;   
+    background-color: lightgrey; 
 }
 .nav-header ul {
     display: flex;
